@@ -4307,9 +4307,9 @@ GameObject:
   - component: {fileID: 1353446795}
   - component: {fileID: 1353446794}
   - component: {fileID: 1353446793}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: lava
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4339,7 +4339,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4642,9 +4642,9 @@ GameObject:
   - component: {fileID: 1459059892}
   - component: {fileID: 1459059891}
   - component: {fileID: 1459059890}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: lava (1)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4674,7 +4674,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5883,7 +5883,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815613353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8eb59b2a7c11fc4987431e5efa58404, type: 3}
+  m_Script: {fileID: 11500000, guid: 7850f8005844ce04a99e6f3ea854577c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4344569874073587072, guid: da07c374b36129e41a5735c5a7ef150e, type: 3}

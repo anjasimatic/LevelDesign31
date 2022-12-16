@@ -7,7 +7,7 @@ public class cubeDMG : MonoBehaviour
     [SerializeField] private float damage = 20f;
 
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
         {

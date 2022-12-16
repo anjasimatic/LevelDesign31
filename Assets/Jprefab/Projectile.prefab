@@ -108,12 +108,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4344569874073587072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21881479d34dce549979f1664a4da5de, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ba21df87d63c5a4da5ecd8caba653be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 0
   projectileBody: {fileID: 6404337466277060034}
-  weaponDamage: 20
+  weaponDamage: 0
   damage: 20
 --- !u!54 &6404337466277060034
 Rigidbody:
